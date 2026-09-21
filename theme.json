@@ -1,0 +1,209 @@
+{
+  "SchemaVersion": 2,
+  "MinWoxVersion": "2.4.5",
+  "ThemeId": "e90d0c9f-c5ab-40f6-b06d-bc2066b13b82",
+  "ThemeName": "i18n:theme_name",
+  "ThemeAuthor": "Wox & Codex",
+  "Version": "1.0.9",
+  "Description": "i18n:theme_description",
+  "BaseBackgroundColor": "#701C13",
+  "BaseTextColor": "#FFF0CC",
+  "BaseAccentColor": "#F2C35B",
+  "AppBackgroundColor": "transparent",
+  "AppBorderWidth": 0,
+  "AppBorderRadius": 0,
+  "AppContentBackgroundColor": "#701C13",
+  "AppContentBorderRadius": 16,
+  "AppPaddingLeft": 10,
+  "AppPaddingRight": 10,
+  "AppPaddingTop": 8,
+  "AppPaddingBottom": 4,
+  "QueryBoxBackgroundColor": "#F6CF73",
+  "QueryBoxFontColor": "#561D0E",
+  "QueryBoxCursorColor": "#8F2917",
+  "QueryBoxBorderRadius": 12,
+  "QueryBoxBorderBottomWidth": 2,
+  "QueryBoxBorderBottomColor": "#B97722",
+  "QueryBoxTextSelectionBackgroundColor": "#A94729",
+  "QueryBoxTextSelectionColor": "#FFF0CC",
+  "ResultItemTitleColor": "#FFF0CC",
+  "ResultItemSubTitleColor": "#DFC294",
+  "ResultItemTailTextColor": "#DFBA75",
+  "ResultItemActiveBackgroundColor": "#EFB84F",
+  "ResultItemActiveTitleColor": "#511B0D",
+  "ResultItemActiveSubTitleColor": "#6B2B14",
+  "ResultItemActiveTailTextColor": "#6B2B14",
+  "ResultItemHoverBackgroundColor": "#8A3020",
+  "ResultItemBorderRadius": 7,
+  "ResultItemPaddingLeft": 10,
+  "ResultItemPaddingRight": 10,
+  "ResultContainerPaddingTop": 10,
+  "ActionContainerBackgroundColor": "transparent",
+  "ActionContainerBorderColor": "transparent",
+  "ActionContainerBorderWidth": 0,
+  "ActionContainerBorderRadius": 10,
+  "ActionContainerHeaderFontColor": "#F2CE83",
+  "ActionContainerDividerColor": "#C98F3855",
+  "ActionContainerPaddingLeft": 22,
+  "ActionContainerPaddingRight": 22,
+  "ActionQueryBoxBackgroundColor": "#4F160FCC",
+  "ActionQueryBoxFontColor": "#FFF0CC",
+  "ActionQueryBoxBorderRadius": 6,
+  "ActionItemFontColor": "#FFF0CC",
+  "ActionItemActiveBackgroundColor": "#F2C35B",
+  "ActionItemActiveFontColor": "#561D0E",
+  "ActionItemBorderRadius": 6,
+  "ActionItemHotkeyFontColor": "#E3C18B",
+  "ActionItemHotkeyBorderColor": "#C5954C88",
+  "ActionItemActiveHotkeyFontColor": "#561D0E",
+  "ActionItemActiveHotkeyBorderColor": "#8D572788",
+  "ActionItemActiveHotkeyBackgroundColor": "#B8742022",
+  "PreviewBackgroundColor": "#60180F",
+  "PreviewBorderColor": "#BC8B36",
+  "PreviewBorderRadius": 6,
+  "PreviewFontColor": "#FFF0CC",
+  "PreviewPropertyTitleColor": "#DCB974",
+  "PreviewPropertyContentColor": "#FFF0CC",
+  "PreviewSplitLineColor": "#C0913D88",
+  "PreviewTagFontColor": "#F2CE83",
+  "PreviewTagBorderColor": "#BD8A3F",
+  "PreviewTagBackgroundColor": "#44120D77",
+  "PreviewTagBorderRadius": 5,
+  "ToolbarBackgroundColor": "#5D180FE6",
+  "ToolbarFontColor": "#EBCD93",
+  "ToolbarPrimaryFontColor": "#FFE3A0",
+  "ToolbarBorderColor": "#D3A13E",
+  "ToolbarBorderWidth": 1,
+  "ToolbarHotkeyFontColor": "#F0CF8D",
+  "ToolbarHotkeyBackgroundColor": "#40110C66",
+  "ToolbarHotkeyBorderColor": "#BD8A3F",
+  "ToolbarPrimaryHotkeyFontColor": "#5B1C0D",
+  "ToolbarPrimaryHotkeyBackgroundColor": "#E9B854",
+  "ToolbarPrimaryHotkeyBorderColor": "#FFE2A2",
+  "ScrollbarThumbColor": "#C5923C99",
+  "ScrollbarThumbHoverColor": "#E1B353",
+  "ScrollbarThumbActiveColor": "#FFD378",
+  "Surfaces": {
+    "App": {
+      "ContentInsets": {
+        "Top": 92,
+        "Right": 92,
+        "Bottom": 64,
+        "Left": 92
+      },
+      "Frame": {
+        "Source": "assets/palace-frame-repeat.png",
+        "Mode": "nineSlice",
+        "Slice": {
+          "Top": 350,
+          "Right": 389,
+          "Bottom": 300,
+          "Left": 421
+        },
+        "Insets": {
+          "Top": 140,
+          "Right": 156,
+          "Bottom": 120,
+          "Left": 168
+        },
+        "Repeat": {
+          "X": "tile",
+          "Y": "stretch"
+        }
+      },
+      "Decorations": [
+        {
+          "Source": "assets/ming-crest.png",
+          "Anchor": "topCenter",
+          "Offset": {
+            "X": 0,
+            "Y": 0
+          },
+          "Size": {
+            "Width": 180,
+            "Height": 120
+          }
+        }
+      ]
+    },
+    "Preview": {
+      "Background": {
+        "Source": "assets/vermilion-lacquer.png",
+        "Mode": "tile",
+        "Size": {
+          "Width": 480,
+          "Height": 480
+        }
+      }
+    },
+    "ActionContainer": {
+      "Frame": {
+        "Source": "assets/panel-solid-frame.png",
+        "Mode": "nineSlice",
+        "Slice": {
+          "Top": 220,
+          "Right": 320,
+          "Bottom": 250,
+          "Left": 320
+        },
+        "Insets": {
+          "Top": 28,
+          "Right": 38,
+          "Bottom": 30,
+          "Left": 38
+        }
+      }
+    },
+    "Toolbar": {
+      "Background": {
+        "Source": "assets/vermilion-lacquer.png",
+        "Mode": "tile",
+        "Size": {
+          "Width": 480,
+          "Height": 480
+        }
+      }
+    }
+  },
+  "GlanceFontColor": "#713416",
+  "GlanceIconColor": "#713416",
+  "RefinementButtonFontColor": "#561D0E",
+  "RefinementButtonIconColor": "#561D0E",
+  "RefinementButtonBackgroundColor": "#F6CF73",
+  "RefinementButtonBorderColor": "#98501E",
+  "RefinementButtonHoverBackgroundColor": "#E9B854",
+  "RefinementButtonActiveFontColor": "#FFF0CC",
+  "RefinementButtonActiveIconColor": "#FFF0CC",
+  "RefinementButtonActiveBackgroundColor": "#701C13",
+  "RefinementButtonActiveBorderColor": "#561D0E",
+  "RefinementButtonActiveHoverBackgroundColor": "#8A3020",
+  "ActionContainerPaddingTop": 24,
+  "ActionContainerPaddingBottom": 22,
+  "I18n": {
+    "en_US": {
+      "theme_description": "Inspired by the Ming dynasty: golden palace eaves, vermilion lacquer, and a sun-and-moon crest.",
+      "theme_name": "Ming"
+    },
+    "zh_CN": {
+      "theme_description": "灵感源于明朝：金瓦飞檐、朱漆立柱与日月徽章。",
+      "theme_name": "明"
+    },
+    "ru_RU": {
+      "theme_description": "Вдохновлено династией Мин: золотые дворцовые карнизы, алый лак и эмблема солнца и луны.",
+      "theme_name": "Мин"
+    },
+    "pt_BR": {
+      "theme_description": "Inspirado na dinastia Ming: beirais dourados de palácio, laca vermelha e um emblema de sol e lua.",
+      "theme_name": "Ming"
+    },
+    "ko_KR": {
+      "theme_description": "명나라에서 영감을 받은 테마: 황금빛 궁궐 처마, 붉은 옻칠, 해와 달 문양.",
+      "theme_name": "명"
+    },
+    "ja_JP": {
+      "theme_description": "明王朝をモチーフにした、金色の宮殿の軒、朱塗りの柱、日月の紋章。",
+      "theme_name": "明"
+    }
+  },
+  "ThemeUrl": "https://github.com/qianlifeng/Wox.Theme.Ming"
+}
